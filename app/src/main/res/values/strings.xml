@@ -1,0 +1,74 @@
+<resources>
+
+    <string name="app_name">LMS</string>
+    <string name="title_activity_maps">LMS</string>
+    <string name="map_type_none">None</string>
+    <string name="map_type_normal">Normal</string>
+    <string name="map_type_terrain">Terrain</string>
+    <string name="map_type_satellite">Satellite</string>
+    <string name="map_type_hybrid">Hybrid</string>
+
+    <string name="btn_update">Update</string>
+    <string name="btn_delete">Delete</string>
+    <string name="search">Search</string>
+    <string name="empty_list_text">No records found</string>
+
+    <string name="home">Home</string>
+    <string name="maps">Google Maps</string>
+    <string name="chat">Chat</string>
+
+    <string name="eventList">Events List</string>
+    <string name="addEvents">Add Events</string>
+    <string name="eventModify">Modify Events</string>
+
+    <string name="meetingList">Meetings List</string>
+    <string name="meetingAdd">Add Meeting</string>
+    <string name="meetingModify">Modify Meeting</string>
+    <string name="choosepersons">Choose Persons to meet</string>
+
+    <string name="membersList">Members List</string>
+    <string name="memberAdd">Add Member</string>
+    <string name="memberModify">Modify Member</string>
+    <string name="add_record">Add Record</string>
+
+    <string name="name">Name</string>
+    <string name="address">Address</string>
+    <string name="view_address">VIEW ADDRESS</string>
+    <string name="time">Time</string>
+    <string name="date">Date</string>
+
+    <string name="save">save</string>
+
+    <string name="room">Room</string>
+    <string name="notes">Notes</string>
+    <string name="persons_to_meet">Persons to meet</string>
+    <string name="person">person</string>
+    <string name="metting">METTING</string>
+    <string name="event">EVENT</string>
+    <string name="logout">LOGOUT</string>
+    <string name="member">member</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="friends_list">Friends</string>
+    <string name="find_friends">Find Friends</string>
+    <string name="meeting">MEETING</string>
+
+    <string name="need_a_new_account">need a new account</string>
+    <string name="create_account">create account</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="display_name">Display Name</string>
+    <string name="log_out">Log out</string>
+    <string name="all_users">All Users</string>
+    <string name="account_settings">Account Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome_to_chats_fragment">Welcome to Chats Fragment</string>
+    <string name="default_status">Hi there, I\'m using LMS App</string>
+    <string name="accept">Accept Meeting</string>
+    <string name="decline">Decline Meeting</string>
+    <string name="update">Update Meeting</string>
+    <string name="delete">Delete Meeting</string>
+
+
+</resources>

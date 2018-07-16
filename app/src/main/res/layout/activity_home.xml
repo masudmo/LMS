@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.example.mariyamasud.maps.HomeActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/appBarLayout">
+
+        <include layout="@layout/app_bar_layout" android:id="@+id/main_page_toolbar" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        style="?android:attr/buttonBarStyle"
+        android:layout_marginTop="50dp"
+        tools:context="mostafamasud.com.lapitrequest.MainActivity">
+
+        <Button
+            android:id="@+id/etchat"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/bluebutton"
+            android:elevation="6dp"
+            android:onClick="onButtonClick"
+            android:shadowColor="#6e6c6c"
+            android:shadowDx="10"
+            android:shadowDy="10"
+            android:shadowRadius="5"
+            android:stateListAnimator="@null"
+            android:text="@string/chat"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:translationZ="4dp" />
+
+        <Button
+            android:id="@+id/etmeeting"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:onClick="onButtonClick"
+            android:background="@drawable/bluebutton"
+            android:elevation="6dp"
+            android:shadowColor="#6e6c6c"
+            android:shadowDx="10"
+            android:shadowDy="10"
+            android:shadowRadius="5"
+            android:stateListAnimator="@null"
+            android:text="@string/meeting"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:translationZ="4dp" />
+
+        <Button
+            android:id="@+id/etevent"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:onClick="onButtonClick"
+            android:background="@drawable/bluebutton"
+            android:elevation="6dp"
+            android:shadowColor="#6e6c6c"
+            android:shadowDx="10"
+            android:shadowDy="10"
+            android:shadowRadius="5"
+            android:stateListAnimator="@null"
+            android:text="@string/event"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:translationZ="4dp" />
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

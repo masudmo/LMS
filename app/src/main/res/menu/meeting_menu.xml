@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/meeting_menu_accept_btn"
+        android:title="@string/accept" />
+    <item
+        android:id="@+id/meeting_menu_decline_btn"
+        android:title="@string/decline" />
+    <item
+        android:id="@+id/meeting_menu_update_btn"
+        android:title="@string/update" />
+    <item
+        android:id="@+id/meeting_menu_delete_btn"
+        android:title="@string/delete" />
+
+</menu>

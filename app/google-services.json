@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "611780457982",
+    "firebase_url": "https://maps-9c5ec.firebaseio.com",
+    "project_id": "maps-9c5ec",
+    "storage_bucket": "maps-9c5ec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:611780457982:android:ef97a3ca61c3f2e4",
+        "android_client_info": {
+          "package_name": "com.example.mariyamasud.maps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "611780457982-a1dvmju30fqg0j1bh28qg1mtob3didl9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mariyamasud.maps",
+            "certificate_hash": "69da6e3ecc158137bee25e399b46738c78701d8b"
+          }
+        },
+        {
+          "client_id": "611780457982-858gtcorfouvm585u1i62krhrtj5vbeq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mariyamasud.maps",
+            "certificate_hash": "5234e55aa03e3226e25cffab042d956f3b1ff99b"
+          }
+        },
+        {
+          "client_id": "611780457982-3vjf27ga820msk4o1er8bde51b859ha4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0te7jILMSzic0vwBNq03YBNlNlyeDGp4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "611780457982-3vjf27ga820msk4o1er8bde51b859ha4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

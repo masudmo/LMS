@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2faef4"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top"
+        android:orientation="vertical">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:gravity="top"
+            android:orientation="vertical">
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/nameWrapper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/name_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="20dp"
+                    android:ems="5"
+                    android:hint="@string/name" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/roomWrapper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/room_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="93dp"
+                    android:ems="5"
+                    android:hint="@string/room"
+                    android:inputType="number" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/notesWrapper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/notes_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="165dp"
+                    android:ems="5"
+                    android:hint="@string/notes" />
+            </android.support.design.widget.TextInputLayout>
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout01"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/dateWrapper"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/date_edittext"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:ems="5"
+                        android:hint="@string/date" />
+                </android.support.design.widget.TextInputLayout>
+
+
+                <Button
+                    android:id="@+id/btn_date"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="35dp"
+                    android:layout_toEndOf="@+id/dateWrapper"
+                    android:layout_toRightOf="@+id/dateWrapper"
+                    android:background="@drawable/calendarblue" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout02"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/timeWrapper"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/time_edittext"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@+id/btn_time"
+                        android:ems="5"
+                        android:hint="@string/time" />
+                </android.support.design.widget.TextInputLayout>
+
+                <Button
+                    android:id="@+id/btn_time"
+                    android:layout_width="51dp"
+                    android:layout_height="51dp"
+                    android:layout_marginBottom="150dp"
+                    android:layout_marginStart="44dp"
+                    android:layout_toEndOf="@+id/timeWrapper"
+                    android:layout_toRightOf="@+id/timeWrapper"
+                    android:background="@drawable/timeicon" />
+
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout04"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/meeting_accept_btn"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:layout_marginEnd="3dp"
+                android:background="@drawable/bluebutton"
+                android:elevation="6dp"
+                android:shadowColor="#6e6c6c"
+                android:shadowDx="10"
+                android:shadowDy="10"
+                android:shadowRadius="5"
+                android:stateListAnimator="@null"
+                android:text="Accept"
+                android:textColor="#fff"
+                android:translationZ="4dp"
+                tools:targetApi="lollipop" />
+
+            <Button
+                android:id="@+id/meeting_decline-btn"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/meeting_accept_btn"
+                android:layout_alignBottom="@+id/meeting_accept_btn"
+                android:layout_marginBottom="3dp"
+                android:layout_marginStart="3dp"
+                android:layout_toEndOf="@+id/meeting_accept_btn"
+                android:layout_toRightOf="@+id/meeting_accept_btn"
+                android:background="@drawable/selected"
+                android:elevation="6dp"
+                android:shadowColor="#6e6c6c"
+                android:shadowDx="10"
+                android:shadowDy="10"
+                android:shadowRadius="5"
+                android:stateListAnimator="@null"
+                android:text="Decline"
+                android:textColor="#fff"
+                android:translationZ="4dp"
+                tools:targetApi="lollipop" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout05"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/btn_update"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="3dp"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/bluebutton"
+                android:elevation="6dp"
+                android:shadowColor="#6e6c6c"
+                android:shadowDx="10"
+                android:shadowDy="10"
+                android:shadowRadius="5"
+                android:stateListAnimator="@null"
+                android:text="@string/btn_update"
+                android:textColor="#fff"
+                android:translationZ="4dp"
+                tools:targetApi="lollipop" />
+
+            <Button
+                android:id="@+id/btn_delete"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_toEndOf="@+id/btn_update"
+                android:layout_toRightOf="@+id/btn_update"
+                android:background="@drawable/selected"
+                android:elevation="6dp"
+                android:shadowColor="#6e6c6c"
+                android:shadowDx="10"
+                android:shadowDy="10"
+                android:shadowRadius="5"
+                android:stateListAnimator="@null"
+                android:text="@string/btn_delete"
+                android:textColor="#fff"
+                android:translationZ="4dp"
+                tools:targetApi="lollipop" />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

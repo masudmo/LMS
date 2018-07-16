@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.masha.lmschool.NameActivity">
+    <item
+        android:visible="true"
+        android:id="@+id/action_save"
+        android:layout_width="61dp"
+        android:layout_height="61dp"
+        android:stateListAnimator="@null"
+        android:elevation="6dp"
+        android:translationZ="4dp"
+        android:textColor="#fff"
+        android:shadowColor="#6e6c6c"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="5"
+        android:background="@drawable/saveicone"
+        style="@style/Widget.AppCompat.Button"
+        android:icon="@drawable/saveicone"
+        app:showAsAction="ifRoom"
+        android:title="" />
+</menu>
